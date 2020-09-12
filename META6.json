@@ -1,0 +1,31 @@
+{
+  "support": {
+    "source": "Write me!"
+  },
+  "auth": "Write me!",
+  "tags": [
+    ""
+  ],
+  "resources": [
+  ],
+  "perl": "6.*",
+  "version": "0.0.1",
+  "license": "Write me!",
+  "build-depends": [
+  ],
+  "depends": [
+    "Cro::HTTP"
+  ],
+  "source-url": "Write me!",
+  "description": "Write me!",
+  "name": "realworld-api",
+  "authors": [
+    ""
+  ],
+  "test-depends": [
+  ],
+  "provides": {
+    "Routes.pm6": "lib/Routes.pm6"
+  },
+  "meta-version": "0"
+}

@@ -1,0 +1,15 @@
+---
+entrypoint: service.p6
+cro: 1
+env:  []
+endpoints: 
+  - 
+    port-env: REALWORLD_API_PORT
+    name: HTTP
+    id: http
+    protocol: http
+    host-env: REALWORLD_API_HOST
+id: realworld-api
+links:  []
+name: realworld-api
+...
