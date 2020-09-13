@@ -9,7 +9,7 @@ endpoints:
     id: http
     protocol: http
     host-env: REALWORLD_API_HOST
-id: realworld-api
+id: raku-cro-realworld-example-api-app
 links:  []
-name: realworld-api
+name: raku-cro-realworld-example-api-app
 ...
