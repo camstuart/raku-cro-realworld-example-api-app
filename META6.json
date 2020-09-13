@@ -1,31 +1,37 @@
 {
-  "support": {
-    "source": "Write me!"
-  },
-  "auth": "Write me!",
-  "tags": [
-    ""
-  ],
-  "resources": [
-  ],
-  "perl": "6.*",
+  "name": "raku-cro-realworld-example-api-app",
+  "description": "A 'real world' example backend API application written in Raku/Cro for publishing at: https://github.com/gothinkster/realworld#backends",
   "version": "0.0.1",
-  "license": "Write me!",
-  "build-depends": [
-  ],
-  "depends": [
-    "Cro::HTTP"
-  ],
-  "source-url": "Write me!",
-  "description": "Write me!",
-  "name": "realworld-api",
+  "perl": "6.d",
+  "meta-version": "0",
   "authors": [
-    ""
+    "Cam Stuart <cam.asoftware@gmail.com>"
   ],
-  "test-depends": [
+  "auth": "github:camstuart",
+  "depends": [
+    "Cro::HTTP",
+    "Cro::HTTP::Test",
+    "Test::META",
+    "Test::Mock"
   ],
+  "build-depends": [],
+  "test-depends": [],
   "provides": {
-    "Routes.pm6": "lib/Routes.pm6"
+    "RealWorldAPI::Routes.pm6": "lib/RealWorldAPI/Routes.pm6"
   },
-  "meta-version": "0"
+  "resources": [],
+  "support": {
+    "bugtracker": "https://github.com/camstuart/raku-cro-realworld-example-api-app/issues",
+    "source": "https://github.com/camstuart/raku-cro-realworld-example-api-app.git"
+  },
+  "license": "Artistic-2.0",
+  "tags": [
+    "cro",
+    "api",
+    "example",
+    "realworld",
+    "postgres"
+  ],
+  "production": false,
+  "source-url": "to be determined"
 }
