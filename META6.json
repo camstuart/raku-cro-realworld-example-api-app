@@ -24,7 +24,7 @@
     "bugtracker": "https://github.com/camstuart/raku-cro-realworld-example-api-app/issues",
     "source": "https://github.com/camstuart/raku-cro-realworld-example-api-app.git"
   },
-  "license": "Artistic-2.0",
+  "license": "Apache-2.0 License",
   "tags": [
     "cro",
     "api",
