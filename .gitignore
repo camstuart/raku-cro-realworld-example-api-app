@@ -1,3 +1,7 @@
+# IDE/Editors
+.idea/
+raku-cro-realworld-example-api-app.iml
+.vscode/
 # Caches
 .precomp/
 node_modules/
