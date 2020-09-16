@@ -1,0 +1,16 @@
+version: '3'
+services:
+  postgres:
+    image: "postgres:12.4"
+    environment:
+      - POSTGRES_USER=raku
+      - POSTGRES_PASSWORD=raku
+      - POSTGRES_DB=realworld
+      - SCHEMA=public
+    ports:
+      - '5432:5432'
+    volumes:
+      - ./resources/realworld-schema.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./.postgres-data:/var/lib/postgresql/data
+volumes:
+  postgres-data:
