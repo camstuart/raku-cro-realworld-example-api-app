@@ -8,3 +8,6 @@ node_modules/
 
 # Backup files
 *~
+
+# Docker postgres database files
+.postgres-data/
