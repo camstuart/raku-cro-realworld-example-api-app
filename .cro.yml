@@ -1,7 +1,9 @@
 ---
 entrypoint: service.p6
 cro: 1
-env:  []
+env:
+  - name: REALWORLD_DSN
+    value: host=localhost port=5432 user=raku password=raku dbname=realworld sslmode=disable  
 endpoints: 
   - 
     port-env: REALWORLD_API_PORT
@@ -12,4 +14,5 @@ endpoints:
 id: raku-cro-realworld-example-api-app
 links:  []
 name: raku-cro-realworld-example-api-app
-...
+ignore:
+  - foo
