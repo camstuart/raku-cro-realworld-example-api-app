@@ -1,6 +1,9 @@
 use Cro::HTTP::Log::File;
 use Cro::HTTP::Server;
 use RealWorldAPI::Routes;
+use DB::Pg;
+
+my $dbh = DB::Pg.new(conninfo => %*ENV<REALWORLD_DSN>);
 
 my Cro::Service $http = Cro::HTTP::Server.new(
     http => <1.1>,
