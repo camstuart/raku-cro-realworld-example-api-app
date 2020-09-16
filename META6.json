@@ -12,7 +12,8 @@
     "Cro::HTTP",
     "Cro::HTTP::Test",
     "Test::META",
-    "Test::Mock"
+    "Test::Mock",
+    "DB::Pg"
   ],
   "build-depends": [],
   "test-depends": [],
